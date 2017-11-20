@@ -1,0 +1,17 @@
+{
+    "require": {
+        "slim/slim": "^3.0",
+        "slim/http-cache": "^0.4.0",
+        "monolog/monolog": "^1.23",
+        "tuupola/slim-basic-auth": "^2.3",
+        "slim/twig-view": "^2.3",
+        "slim/flash": "^0.4.0",
+        "slim/csrf": "^0.8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Myapp\\": "src/Myapp",
+            "Myapp\\Models\\": "src/Myapp/Models"
+        }
+    }
+}
